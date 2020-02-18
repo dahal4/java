@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package edu.np.scst.thissuperkeyword;
 
-/**
- *
- * @author manish
- */
 public class Parent {
-    
+    int parentProperty = 200;
+    Parent() {
+        System.out.println("Parent constructor");
+    }
+    Parent(int i){
+        this();
+        System.out.println("parent argument construtor"+i);
+    }
+    public static void main(String[] args) {
+        
+    }
 }
